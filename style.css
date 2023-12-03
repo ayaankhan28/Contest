@@ -1,9 +1,10 @@
+
 body{
     background-color: rgb(0,47,118);
     color: white;
     
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    height: 500vh;
+   
 }
 .topline{
     display: flex;
@@ -81,6 +82,7 @@ body{
     cursor: pointer;
 }
 .About {
+
     margin: 0;
     background-color: white; /* Set your desired color for the lower segment */
     height: 100%;
@@ -300,4 +302,378 @@ body{
     flex-direction: column;
     margin: 0px;
 
+}
+
+.topictest{
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.crad{
+    color: black;
+    width: 30vw;
+    height: 200px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+ 
+    flex-direction: column;
+    padding: 10px;
+}
+.crads{
+    display: flex;
+    justify-content: space-around;
+}
+.up img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+}
+.bio{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.bio p{
+    margin: 0px;
+}
+
+.stars{
+    color: rgb(255, 191, 0);
+}
+.up p{
+    color:gray;
+}
+.down p{
+    font-size:15px ;
+}
+.dots{
+    color: gray;
+    position: relative;
+    left: 50%;
+    top: 10px;
+    margin-bottom: 100px;
+}
+#dm{
+    color: rgb(0,47,118);
+}
+.portfolio{
+    background-color: rgba(177, 177, 177,0.3);
+}
+.tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.bar a{
+    text-decoration:none;
+    color: black;
+}
+
+.port{
+    color: black;
+    width: 30vw;
+    height: 30vw;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.products{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.port img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.port p{
+    margin: 0px;
+    padding-left: 10px;
+    
+}
+.port h3{
+    margin: 0px;
+    padding-left: 10px;
+}
+.gap{
+    height: 70px;
+}
+.ourTeam{
+    background-color: white;
+    margin-bottom: 40px;
+}
+.team{
+    color: black;
+    width: 20vw;
+    height: 35vw;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.teams{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team img{
+    top: 0px;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20px;
+    
+}
+.team p{
+    margin: 0px;
+    padding-left: 10px;
+    color: gray;
+    
+}
+.team h3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.links i{
+    font-size: 3vw;
+    color: rgba(177, 177, 177);
+}
+.links i:hover{
+    color: rgb(0,47,118);
+    transition: 0.6s;
+    cursor: pointer;
+}
+.price{
+    color: black;
+    width: 30vw;
+    height: 40vw;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.prices{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.details p{
+    margin: 0px;
+    padding-left: 10px;
+    color: gray;
+}
+.price .up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.up .text i{
+    font-size: 6vw;
+    color: rgb(0,47,118);
+    display: flex;
+    justify-content: center;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-around;
+    align-items:last baseline;
+}
+.pricing h1{
+    color: red;
+}
+.details i{
+    color:green
+}
+.details #min{
+    color: red;
+}
+.details #m{
+    text-decoration: line-through;
+    color: rgb(204, 204, 204);
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.prices #mid{
+    color: black;
+    width: 30vw;
+    height: 45vw;
+    background-color:white;
+    border-radius: 20px;
+    border:3px solid rgb(0,47,118);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.price{
+    font-size: 2vw;
+}
+.btnn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+}
+
+.btnn .btn123{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1vw;
+}
+.btn123{
+    padding:10px;
+    border:#94a3dd 1px solid;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+    color: rgb(0,47,118);
+}
+.Prricing{
+    background-color: #bfc9ee;
+}
+.faq{
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.faq-item {
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: block;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+input[type="checkbox"]:checked + label + .answer {
+    max-height: 200px; /* Adjust the height as needed */
+}label:hover{
+    background-color: rgb(0,47,118);
+    color: white;
+    transition: 0.6s;
+}
+.qna{
+    margin-left: 30px;
+}
+.blogs{
+    background-color: rgba(177, 177, 177,0.3);
+}
+.blogs .tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.blogs .bar a{
+    text-decoration:none;
+    color: black;
+}
+
+.blogs .port{
+    color: black;
+    width: 30vw;
+    height: 30vw;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.blogs .products{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blogs .port img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.blogs .port p{
+    margin: 0px;
+    padding-left: 10px;
+    
+}
+.blogs .port h3{
+    margin: 0px;
+    padding-left: 10px;
+}
+.blogs .gap{
+    height: 70px;
 }
